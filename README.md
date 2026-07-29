@@ -15,8 +15,8 @@ third-party data sharing**. I also work on open standards for digital ownership.
 
 | Project | What it does |
 | --- | --- |
-| **[parcel-tracker-bot](https://github.com/SVM-98/parcel-tracker-bot)** | Self-hosted Telegram bot tracking parcels across 24+ couriers worldwide, with a plugin architecture and full observability. |
-| **[price-tracker-bot](https://github.com/SVM-98/price-tracker-bot)** | Self-hosted multi-site price tracker with auto-quarantine, fine-grained notifications, and a plugin scraper architecture. |
+| **[price-tracker-bot](https://github.com/SVM-98/price-tracker-bot)** | Self-hosted Telegram bot for multi-site price tracking: auto-quarantine of broken scrapers, fine-grained notification preferences, Prometheus metrics, and a plugin architecture for adding new sites. |
+| **[parcel-tracker-bot](https://github.com/SVM-98/parcel-tracker-bot)** | Self-hosted Telegram bot tracking parcels across 24+ couriers worldwide: carrier auto-detect, offline route maps rendered without a geocoding API, and the same plugin architecture. |
 
 ### 🧰 How I build
 
