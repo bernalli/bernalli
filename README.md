@@ -1,9 +1,16 @@
 # Hi 👋
 
-I build small, **self-hosted, privacy-first** tools — mostly in Python.
-Telegram bots, web-scraping pipelines, and quantitative/data tooling, all
-designed to run on my own infrastructure with **no cloud, no SaaS, no
-third-party data sharing**. I also work on open standards for digital ownership.
+I'm Samuele, based in Italy. I care about **digital ownership** and about
+software that answers to the person running it: what you buy should stay
+yours, and what you run should run on your own machines.
+
+In practice that means two things. **[attest](https://github.com/bernalli/attest)**,
+an open standard for cryptographically-signed, buyer-held purchase receipts
+that outlive the store which issued them — specified down to an Internet-Draft,
+with two independent verifier implementations. And a shelf of small,
+**self-hosted, privacy-first** tools in Python — Telegram bots, scraping
+pipelines, quantitative tooling — built to run without cloud, SaaS, or
+third-party data sharing.
 
 ### 📐 Open standard
 
@@ -32,7 +39,7 @@ third-party data sharing**. I also work on open standards for digital ownership.
 
 ### 📫 Contact
 
-Reach me at `SVM-98@proton.me`.
+Reach me at `bernalli@proton.me`.
 
 ---
 
