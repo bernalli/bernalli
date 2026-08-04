@@ -9,14 +9,14 @@ third-party data sharing**. I also work on open standards for digital ownership.
 
 | Project | What it is |
 | --- | --- |
-| **[attest](https://github.com/SVM-98/attest)** | An open standard + reference implementation for cryptographically-signed, buyer-held digital purchase receipts — verifiable **offline**, that outlive the store which issued them. No wallet, no blockchain, no server that has to stay alive. Python + TypeScript verifiers, Apache-2.0. |
+| **[attest](https://github.com/bernalli/attest)** | An open standard + reference implementation for cryptographically-signed, buyer-held digital purchase receipts — verifiable **offline**, that outlive the store which issued them. No wallet, no blockchain, no server that has to stay alive. Python + TypeScript verifiers, Apache-2.0. |
 
 ### 🔧 Open projects
 
 | Project | What it does |
 | --- | --- |
-| **[price-tracker-bot](https://github.com/SVM-98/price-tracker-bot)** | Self-hosted Telegram bot for multi-site price tracking: auto-quarantine of broken scrapers, fine-grained notification preferences, Prometheus metrics, and a plugin architecture for adding new sites. |
-| **[parcel-tracker-bot](https://github.com/SVM-98/parcel-tracker-bot)** | Self-hosted Telegram bot tracking parcels across 24+ couriers worldwide: carrier auto-detect, offline route maps rendered without a geocoding API, and the same plugin architecture. |
+| **[price-tracker-bot](https://github.com/bernalli/price-tracker-bot)** | Self-hosted Telegram bot for multi-site price tracking: auto-quarantine of broken scrapers, fine-grained notification preferences, Prometheus metrics, and a plugin architecture for adding new sites. |
+| **[parcel-tracker-bot](https://github.com/bernalli/parcel-tracker-bot)** | Self-hosted Telegram bot tracking parcels across 24+ couriers worldwide: carrier auto-detect, offline route maps rendered without a geocoding API, and the same plugin architecture. |
 
 ### 🧰 How I build
 
