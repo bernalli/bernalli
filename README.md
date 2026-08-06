@@ -15,7 +15,7 @@ every EVM chain by construction.
 
 | | |
 | --- | --- |
-| **[attest](https://github.com/bernalli/attest)** | An open standard + reference implementation for cryptographically-signed, buyer-held digital purchase receipts — verifiable **offline**, that outlive the store which issued them. No wallet, no blockchain, no server that has to stay alive. Specified down to an Internet-Draft, with two independent verifier implementations (Python + TypeScript), Apache-2.0. |
+| **[attest](https://github.com/bernalli/attest)** | An open standard + reference implementation for cryptographically-signed, buyer-held digital purchase receipts — verifiable **offline**, that outlive the store which issued them. No wallet, no blockchain, no server that has to stay alive. Published as IETF Internet-Draft [draft-martinalli-open-purchase-receipts-00](https://datatracker.ietf.org/doc/draft-martinalli-open-purchase-receipts/), with two independent verifier implementations (Python + TypeScript), Apache-2.0. |
 
 ### 🦉 glaux — one address, every chain
 
