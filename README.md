@@ -1,9 +1,8 @@
 # Hi, I'm Samuele
 
-I build software that answers to the person running it. What you buy should
-stay yours, what you hold should stay yours, and what you run should run on
-your own machines. Everything below is open source, self-hosted, and free of
-telemetry.
+**Privacy & ownership are the mission.** Open standards, self-hosted software,
+bots: what you buy stays yours, what you hold stays yours, what you run runs on
+your own machine. Everything below is open source and free of telemetry.
 
 ## Projects
 
