@@ -1,45 +1,40 @@
-# Hi 👋
+# Hi, I'm Samuele
 
-I'm Samuele, based in Italy. I care about **digital ownership** and about
-software that answers to the person running it: what you buy should stay
-yours, what you hold should stay yours, and what you run should run on your
-own machines.
+I build software that answers to the person running it. What you buy should
+stay yours, what you hold should stay yours, and what you run should run on
+your own machines. Everything below is open source, self-hosted, and free of
+telemetry.
 
-Two projects carry that idea at the moment. **[attest](https://github.com/bernalli/attest)**,
-an open standard for cryptographically-signed, buyer-held purchase receipts
-that outlive the store which issued them. And **[glaux](https://github.com/bernalli/glaux)**,
-a minimal, crypto-agile EIP-7702 smart account that keeps one address on
-every EVM chain by construction.
+## Projects
 
-### 📐 attest — receipts that outlive the store
+- **[attest](https://github.com/bernalli/attest)** — an open standard for
+  cryptographically signed, buyer-held purchase receipts that can be verified
+  offline and outlive the store that issued them. Published as IETF
+  Internet-Draft [draft-martinalli-open-purchase-receipts](https://datatracker.ietf.org/doc/draft-martinalli-open-purchase-receipts/),
+  with independent Python and TypeScript verifiers. Apache-2.0.
+- **[glaux](https://github.com/bernalli/glaux)** — a minimal, crypto-agile
+  EIP-7702 smart account: one address on every EVM chain by construction,
+  2-of-3 threshold, P-256 signers, sign-once/replay-many rotation. Solidity,
+  TypeScript SDK, Python tooling. MIT. Unaudited reference implementation.
+- **[price-tracker-bot](https://github.com/bernalli/price-tracker-bot)** — a
+  self-hosted Telegram bot that tracks prices across 17 sites, with per-domain
+  quarantine, notification preferences and Prometheus metrics. MIT.
+- **[parcel-tracker-bot](https://github.com/bernalli/parcel-tracker-bot)** — a
+  self-hosted Telegram bot that follows parcels across 30+ couriers. MIT.
 
-| | |
-| --- | --- |
-| **[attest](https://github.com/bernalli/attest)** | An open standard + reference implementation for cryptographically-signed, buyer-held digital purchase receipts — verifiable **offline**, that outlive the store which issued them. No wallet, no blockchain, no server that has to stay alive. Published as IETF Internet-Draft [draft-martinalli-open-purchase-receipts-00](https://datatracker.ietf.org/doc/draft-martinalli-open-purchase-receipts/), with two independent verifier implementations (Python + TypeScript), Apache-2.0. |
+## How I build
 
-### 🦉 glaux — one address, every chain
-
-| | |
-| --- | --- |
-| **[glaux](https://github.com/bernalli/glaux)** | A minimal, crypto-agile **EIP-7702 smart account**: one address on every EVM chain by construction — no factories, no counterfactual deploys — with a 2-of-3 threshold on the operational path, P-256/secure-enclave signers, and sign-once/replay-many rotation. One birth blob demonstrated live on two public testnets: same account, same address, byte-identical configuration. Solidity (Foundry) + TypeScript SDK + Python tooling, MIT. Unaudited reference implementation. |
-
-### 🧰 How I build
-
-- **Solidity (Foundry)** — invariant testing, Slither + Aderyn gates in CI, deterministic CREATE2 deploys
-- **Python 3.11+** — type-safe (`mypy --strict`), linted (`ruff`), tested (`pytest`)
+- **Solidity (Foundry)** — invariant tests, Slither and Aderyn gates in CI, deterministic deploys
+- **Python 3.11+** — `mypy --strict`, `ruff`, `pytest`
 - **TypeScript** — strict compiler settings, tested end to end
-- **Self-hosting first** — hardened Docker, read-only rootfs, dropped capabilities
-- **Auditable** — small, readable codebases; no telemetry; secrets only via env
+- **Self-hosting first** — hardened Docker: read-only rootfs, dropped capabilities, no cloud dependency
 
-### 📌 Interests
+## Support
 
-`digital-ownership` · `self-custody` · `cryptography` · `ethereum` ·
-`account-abstraction` · `self-hosted` · `observability` · `quantitative-research`
+If any of this is useful to you, you can [sponsor my work](https://github.com/sponsors/bernalli).
+It pays for what a solo maintainer can't cover alone: security audits, test
+infrastructure, and the time to keep specs and code in step.
 
-### 📫 Contact
+## Contact
 
-Reach me at `bernalli@proton.me`.
-
----
-
-<sub>Everything here is built to be auditable, hardened, and run without relying on SaaS.</sub>
+`bernalli@proton.me`
