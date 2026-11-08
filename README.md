@@ -1,6 +1,8 @@
 # Samuele
 
-I published an open receipt format, and I build self-hosted Telegram bots and a macOS app.
+I build iOS and macOS apps, EVM smart contracts and self-hosted services.
+
+Public projects:
 
 - [attest](https://github.com/bernalli/attest) — defines a format for signed purchase receipts that anyone can verify offline. The core format is published as an Internet-Draft.
 - [TopNV](https://github.com/bernalli/TopNV) — blends the MacBook notch into a black menu bar and rounds the display corners.
