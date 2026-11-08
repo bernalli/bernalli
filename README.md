@@ -3,7 +3,7 @@
 In development, not yet public:
 
 - **Minerva** — a self-custodial smart wallet for iOS.
-- **glaux** — a minimal EIP-7702 smart account.
+- **glaux** — a minimal smart account with the same address on every EVM chain and no seed phrase.
 
 Public:
 
