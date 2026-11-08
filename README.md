@@ -4,6 +4,7 @@ In development, not yet public:
 
 - **Minerva** — a self-custodial smart wallet for iOS.
 - **glaux** — a minimal EIP-7702 smart account.
+- **monoPods** — a macOS menu bar app that switches audio to mono with one AirPod in and back to stereo with two.
 
 Public:
 
